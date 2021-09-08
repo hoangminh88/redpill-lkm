@@ -67,7 +67,7 @@ const struct hw_config supported_platforms[] = {
             .emulate_rtc = true,
             .swap_serial = false,
             .reinit_ttyS0 = true,
-            .fix_disk_led_ctrl = false,
+            .fix_disk_led_ctrl = true,
     },
 };
 
